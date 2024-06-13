@@ -1,38 +1,63 @@
 .header {
   font-family: Roboto;
-  padding: 2%;
+  padding: 1%;
   background-color: rgb(4, 63, 97);
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  align-items: first baseline;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-around;
   max-height: 500px;
 }
 p {
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: justify;
 }
 
-h3 {
-  color: white;
+h1 {
+  color: rgb(0, 0, 0);
 }
 a {
   text-decoration: none;
   color: white;
   font-weight: 400;
   font-style: oblique;
-  padding: 2%;
   align-self: flex-end;
-  flex-direction: column;
 }
 
-.coconutpic {
-  width: 500px;
-  border: 6px solid rgb(255, 255, 255);
-  align-self: self-end;
+.headercontent {
+  font-family: Roboto;
+  padding: 5%;
+  background-color: rgb(4, 63, 97);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-height: 500px;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 100px;
 }
 
 button {
+  align-self: flex-start;
+  background-color: rgb(124, 169, 228);
+  border-style: none;
+  font-size: 15px;
+  font-style: oblique;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+logo {
+  align-self: self-start;
+}
+
+.coconutpic {
+  width: 600px;
   align-self: baseline;
 }
