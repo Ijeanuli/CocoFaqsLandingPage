@@ -95,3 +95,27 @@ logo {
 figure {
   text-align: center;
 }
+
+.midsection2 {
+  font-family: Roboto;
+  padding: 3%;
+  background-color: rgb(216, 215, 215);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 250px;
+}
+
+#p2 {
+  color: black;
+  font-size: 30px;
+  font-style: italic;
+}
+
+span {
+  align-self: flex-end;
+  font-weight: bold;
+}
