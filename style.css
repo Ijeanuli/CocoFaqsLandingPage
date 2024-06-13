@@ -10,13 +10,14 @@
   max-height: 500px;
 }
 p {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: justify;
 }
 
 h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
+
 a {
   text-decoration: none;
   color: white;
@@ -60,4 +61,37 @@ logo {
 .coconutpic {
   width: 600px;
   align-self: baseline;
+}
+
+.midsection1 {
+  font-family: Roboto;
+  padding: 1%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#blackh1 {
+  color: black;
+  align-self: center;
+}
+
+.picturerow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.figimg {
+  border: 5px solid rgb(66, 157, 185);
+  border-radius: 10px;
+}
+
+figure {
+  text-align: center;
 }
