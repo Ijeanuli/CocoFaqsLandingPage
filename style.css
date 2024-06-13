@@ -119,3 +119,54 @@ span {
   align-self: flex-end;
   font-weight: bold;
 }
+
+.bottom {
+  font-family: Roboto;
+  padding: 3%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  flex-direction: column;
+}
+
+.box {
+  background: #3882f6;
+  width: 1200px;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+}
+
+h4 {
+  color: white;
+  font-size: 20px;
+  align-self: start;
+}
+
+#p3 {
+  font-weight: 350;
+}
+
+.button2 {
+  background-color: #3882f6;
+  border: 2px solid white;
+  font-size: 20px;
+  font-style: bold;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: white;
+  align-self: center;
+  margin-left: 10em;
+}
+
+.span2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+  margin-left: 2em;
+}
