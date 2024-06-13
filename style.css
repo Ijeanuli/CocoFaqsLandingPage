@@ -170,3 +170,11 @@ h4 {
   margin-bottom: 3em;
   margin-left: 2em;
 }
+
+.footer {
+  font-family: Roboto;
+  padding: 2%;
+  background-color: rgb(4, 63, 97);
+  height: 50px;
+  text-align: center;
+}
