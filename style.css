@@ -1,0 +1,38 @@
+.header {
+  font-family: Roboto;
+  padding: 2%;
+  background-color: rgb(4, 63, 97);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: first baseline;
+  justify-content: space-evenly;
+  max-height: 500px;
+}
+p {
+  color: white;
+  text-align: justify;
+}
+
+h3 {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-style: oblique;
+  padding: 2%;
+  align-self: flex-end;
+  flex-direction: column;
+}
+
+.coconutpic {
+  width: 500px;
+  border: 6px solid rgb(255, 255, 255);
+  align-self: self-end;
+}
+
+button {
+  align-self: baseline;
+}
